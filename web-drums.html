@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Drums</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Web Drums</h1>
+    </header>
+    <section class="drum">
+        <div class="keys">
+            
+            <div class="keys__key" data-key="65">
+                    <kbd class="keys__key-letter">A</kbd>
+                    <p class="keys__key-text">Clap</p>
+            </div>
+
+            <div class="keys__key" data-key="83">
+                    <kbd class="keys__key-letter">S</kbd>
+                    <p class="keys__key-text">Hi Hat</p>
+            </div>
+
+            <div class="keys__key" data-key="68">
+                    <kbd class="keys__key-letter">D</kbd>
+                    <p class="keys__key-text">Kick</p>
+            </div>
+
+            <div class="keys__key" data-key="70">
+                    <kbd class="keys__key-letter">F</kbd>
+                    <p class="keys__key-text">Open Hat</p>
+            </div>
+
+            <div class="keys__key" data-key="71">
+                    <kbd class="keys__key-letter">G</kbd>
+                    <p class="keys__key-text">Boom</p>
+            </div>
+            
+            <div class="keys__key" data-key="72">
+                    <kbd class="keys__key-letter">H</kbd>
+                    <p class="keys__key-text">Ride</p>
+            </div>
+
+            <div class="keys__key" data-key="74">
+                    <kbd class="keys__key-letter">J</kbd>
+                    <p class="keys__key-text">Snare</p>
+            </div>
+
+            <div class="keys__key" data-key="75">
+                    <kbd class="keys__key-letter">K</kbd>
+                    <p class="keys__key-text">Tom</p>
+            </div>
+
+            <div class="keys__key" data-key="76">
+                    <kbd class="keys__key-letter">L</kbd>
+                    <p class="keys__key-text">Tink</p>
+            </div>
+
+        </div>
+    </section>
+
+    <audio data-key="65" src="sounds/CLAP.wav"></audio>
+    <audio data-key="83" src="sounds/HH Closed.wav"></audio>
+    <audio data-key="68" src="sounds/KD.wav"></audio>
+    <audio data-key="70" src="sounds/HH Open.wav"></audio>
+    <audio data-key="71" src="sounds/BOOM.wav"></audio>
+    <audio data-key="72" src="sounds/RIDE.wav"></audio>
+    <audio data-key="74" src="sounds/SN.wav"></audio>
+    <audio data-key="75" src="sounds/TOM.wav"></audio>
+    <audio data-key="76" src="sounds/TINK.wav"></audio>
+
+    <script src="app.js"></script>
+</body>
+</html>

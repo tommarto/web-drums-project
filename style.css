@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+}
+
+body{
+    font-family: 'Staatliches', cursive;
+    height: 100vh;
+    background-image: url(img/crowd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.header__title{
+    padding-top: 4%;
+    font-size: 3.7em;
+}
+.drum{
+    width: 100%;
+    height: auto;
+    min-height: 70%;
+    display: flex;
+    align-items: center;
+}
+.keys{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.keys__key{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(233, 33, 173);
+    border-radius: 64px;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.keys__key-letter{
+    font-size: 2.2em;
+    color: rgb(0, 191, 224);
+}
+
+.keys__key-text{
+    font-weight: 100;
+    color: white;
+}
